@@ -1,0 +1,8 @@
+D:\разработки\ImitatorProcessorLibTest\ImitatorProcessorLibTest\bin\Release\ImitatorProcessorLibTest.dll
+D:\разработки\ImitatorProcessorLibTest\ImitatorProcessorLibTest\bin\Release\ImitatorProcessorLibTest.pdb
+D:\разработки\ImitatorProcessorLibTest\ImitatorProcessorLibTest\obj\Release\ImitatorProcessorLibTest.csprojResolveAssemblyReference.cache
+D:\разработки\ImitatorProcessorLibTest\ImitatorProcessorLibTest\obj\Release\ImitatorProcessorLibTest.dll
+D:\разработки\ImitatorProcessorLibTest\ImitatorProcessorLibTest\obj\Release\ImitatorProcessorLibTest.pdb
+D:\разработки\ImitatorProcessorLibTest\ImitatorProcessorLibTest\bin\Release\DynamicProcessor.dll
+D:\разработки\ImitatorProcessorLibTest\ImitatorProcessorLibTest\bin\Release\DynamicProcessor.pdb
+D:\разработки\ImitatorProcessorLibTest\ImitatorProcessorLibTest\bin\Release\DynamicProcessor.xml

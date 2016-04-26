@@ -1,0 +1,5 @@
+D:\разработки\ImitatorProcessorLib\ImitatorProcessorLib\bin\Release\DynamicProcessor.xml
+D:\разработки\ImitatorProcessorLib\ImitatorProcessorLib\bin\Release\DynamicProcessor.dll
+D:\разработки\ImitatorProcessorLib\ImitatorProcessorLib\bin\Release\DynamicProcessor.pdb
+D:\разработки\ImitatorProcessorLib\ImitatorProcessorLib\obj\Release\DynamicProcessor.dll
+D:\разработки\ImitatorProcessorLib\ImitatorProcessorLib\obj\Release\DynamicProcessor.pdb

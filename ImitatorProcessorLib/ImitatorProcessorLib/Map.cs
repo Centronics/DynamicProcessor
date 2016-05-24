@@ -207,6 +207,14 @@ namespace DynamicProcessor
         }
 
         /// <summary>
+        /// Удаляет все объекты с карты.
+        /// </summary>
+        public void Clear()
+        {
+            _mapMas.Clear();
+        }
+
+        /// <summary>
         /// Записывает карту в указанный поток, в формате XML.
         /// </summary>
         /// <param name="st">Поток, в который необходимо сохранить текущую карту.</param>

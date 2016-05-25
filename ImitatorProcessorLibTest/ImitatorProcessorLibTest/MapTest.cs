@@ -441,6 +441,16 @@ namespace ImitatorProcessorLibTest
             Assert.AreEqual(0, map.Count);
             map.RemoveObject(2, 2);
             Assert.AreEqual(0, map.Count);
+            map.Clear();
+            Assert.AreEqual(0, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Add(new MapObject());
+            map.Add(new MapObject());
+            Assert.AreEqual(2, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Clear();
+            Assert.AreEqual(0, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
         }
 
         [TestMethod]

@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DynamicProcessor">
+    <Reference Include="DynamicProcessor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\ImitatorProcessorLib\ImitatorProcessorLib\bin\Release\DynamicProcessor.dll</HintPath>
     </Reference>
     <Reference Include="System" />

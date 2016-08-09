@@ -220,8 +220,7 @@ namespace DynamicProcessor
         /// <param name="st">Поток, в который необходимо сохранить текущую карту.</param>
         public void ToStream(Stream st)
         {
-            XmlSerializer formatter = new XmlSerializer(typeof(List<MapObject>));
-            formatter.Serialize(st, _mapMas);
+            (new XmlSerializer(typeof(List<MapObject>))).Serialize(st, _mapMas);
         }
     }
 }

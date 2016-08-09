@@ -25,7 +25,7 @@ namespace DynamicProcessor
         public Processor(Map map)
         {
             if (map == null)
-                throw new ArgumentNullException("map", "CommandExecutor: Карта для обработки не может быть пустой (null)");
+                throw new ArgumentNullException("map", "Processor: Карта для обработки не может быть пустой (null)");
             _currentMassive = map;
         }
 

@@ -465,6 +465,36 @@ namespace ImitatorProcessorLibTest
             Assert.AreEqual(new SignValue(20), map[0].Sign);
             map.RemoveObject(0);
             Assert.AreEqual(0, map.Count);
+            map.Add(new MapObject { Sign = new SignValue() });
+            Assert.AreEqual(1, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Clear();
+            Assert.AreEqual(0, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Add(new MapObject { Sign = new SignValue(10000) });
+            Assert.AreEqual(1, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Clear();
+            Assert.AreEqual(0, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map = new Map();
+            Assert.AreEqual(0, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Clear();
+            Assert.AreEqual(0, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Add(new MapObject { Sign = new SignValue() });
+            Assert.AreEqual(1, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Clear();
+            Assert.AreEqual(0, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Add(new MapObject { Sign = new SignValue(10000) });
+            Assert.AreEqual(1, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
+            map.Clear();
+            Assert.AreEqual(0, map.Count);
+            Assert.AreEqual(0, map.CountDiscounted);
         }
 
         [TestMethod]
